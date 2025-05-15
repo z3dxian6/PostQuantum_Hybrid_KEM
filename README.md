@@ -158,4 +158,4 @@ Projet open-source à usage éducatif – MIT License.
 ## ✨ Auteur
 
 **Zoran** – 2025  
-Projet de fin d’études en cryptographie hybride.
+Projet d’études en cryptographie post quantique.

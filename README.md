@@ -50,21 +50,16 @@ K_final = HKDF_SHA256(K_RSA_from + K_Kyber_from + K_RSA_to + K_Kyber_to)
 ```
 Projet_Crypto/
 ├── Alice/
-│   ├── alice_rsa_private.pem
-│   ├── alice_rsa_public.pem
-│   ├── alice_kyber_pk.bin
-│   ├── alice_kyber_sk.bin
+│   ├── KEM_RSA_Alice.py
+│   ├── interface_alice.py
+│   ├── simple_kyber512.py
 │   └── ...
 ├── Bob/
-│   ├── bob_rsa_private.pem
-│   ├── bob_rsa_public.pem
-│   ├── bob_kyber_pk.bin
+│   ├── KEM_RSA_Bob.py
+│   ├── interface_bob.py
+│   ├── simple_kyber512.py
 │   └── ...
-├── interface_alice.py
-├── interface_bob.py
-├── KEM_RSA_Alice.py
-├── KEM_RSA_Bob.py
-├── simple_kyber512.py
+├── LICENCE
 └── README.md
 ```
 
